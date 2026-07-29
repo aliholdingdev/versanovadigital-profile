@@ -345,7 +345,7 @@ npx playwright test --grep "database"
 
 ```bash
 # Load test with generated seed data
-ab -n 10000 -c 100 http://localhost:8000/api/users
+ab -n 10000 -c 100 http://music.coremusic.net:81//api/users
 ```
 
 ---

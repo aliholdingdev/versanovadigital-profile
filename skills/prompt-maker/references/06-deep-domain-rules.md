@@ -155,7 +155,7 @@ quality-score: "98.7%"
 2. Neva Player → GPU init → discover Engine → attach ring buffer
 3. Download Service → Node.js/Express → port 3001
 4. CoreMusic PHP → load routes → discover Engine (9741 REST)
-5. Browser → http://localhost:8000
+5. Browser → http://music.coremusic.net:81/
 
 **Rules (Port Allocation - ADR 031):**
 - 8000: CoreMusic PHP (main)

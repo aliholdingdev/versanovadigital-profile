@@ -325,21 +325,21 @@ or
 
 **Load all questions:**
 ```bash
-curl -X POST http://localhost:8000/.claude/skills/prompt-maker/load \
+curl -X POST http://music.coremusic.net:81//.claude/skills/prompt-maker/load \
   -H "Content-Type: application/json" \
   -d '{"blocks": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]}'
 ```
 
 **Filter by project type:**
 ```bash
-curl -X POST http://localhost:8000/.claude/skills/prompt-maker/filter \
+curl -X POST http://music.coremusic.net:81//.claude/skills/prompt-maker/filter \
   -H "Content-Type: application/json" \
   -d '{"project_type": "web_backend", "languages": ["PHP", "JavaScript"], "complexity": "advanced"}'
 ```
 
 **Get scoring rubric:**
 ```bash
-curl -X GET http://localhost:8000/.claude/skills/prompt-maker/rubric
+curl -X GET http://music.coremusic.net:81//.claude/skills/prompt-maker/rubric
 ```
 
 ---

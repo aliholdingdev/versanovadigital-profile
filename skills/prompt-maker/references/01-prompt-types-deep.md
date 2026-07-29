@@ -372,7 +372,7 @@ curl http://localhost:9741/health          # Engine REST
 curl http://localhost:3001/health          # Download Service
 wscat ws://localhost:9742                  # Engine WebSocket
 wscat ws://localhost:9743                  # Player WebSocket
-curl http://localhost:8000/                # CoreMusic PHP
+curl http://music.coremusic.net:81//                # CoreMusic PHP
 ```
 
 ### Startup Sequence (CRITICAL ORDER)
@@ -380,7 +380,7 @@ curl http://localhost:8000/                # CoreMusic PHP
 2. Neva Player → GPU → attach ring buffer → discover Engine
 3. Download Service → Node.js/Express → listen 3001
 4. CoreMusic PHP → load auth/routes → discover Engine (9741 REST)
-5. Browser → http://localhost:8000
+5. Browser → http://music.coremusic.net:81/
 
 ---
 
